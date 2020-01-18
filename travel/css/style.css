@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: black;
+  padding: 15px;
+  color: white;
+}
+.header span {
+  position: relative;
+  cursor: pointer;
+}
+.header span i {
+  color: orange;
+  padding: 0px 5px !important;
+}
+.header .inside {
+  border-top: 2px solid orange;
+  display: none;
+  position: absolute;
+  background-color: black;
+  top: 150%;
+  left: 5%;
+  width: 190px;
+  color: white;
+  z-index: 999;
+  padding: 10px;
+  text-align: left;
+}
+.header .inside p {
+  padding: 8px 10px;
+}
+.header .inside2 {
+  border-top: 2px solid orange;
+  display: none;
+  position: absolute;
+  background-color: black;
+  top: 150%;
+  right: 15%;
+  width: 190px;
+  color: white;
+  z-index: 999;
+  padding: 10px;
+  text-align: left;
+}
+.header .inside2 p {
+  padding: 8px 10px;
+}
+.header .span1 {
+  padding: 0px 10px;
+  border-right: 1px solid gray;
+}
+.header .span1 i {
+  color: orange;
+  padding: 0px 5px !important;
+}
+.header i {
+  padding: 0px 8px;
+}
+.header button {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 3px 5px;
+}
+
+.bawliq {
+  background-color: #fcfcfc;
+}
+.bawliq .container {
+  padding: 20px 0px;
+  border: 1px solid gray;
+}
+.bawliq .container .all .col-lg-10 {
+  padding: 0%;
+  margin: 0%;
+}
+.bawliq .container .all .col-lg-10 .dropdown {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 20px;
+}
+.bawliq .container .all .col-lg-10 .dropdown:hover .dropbtn {
+  color: #6c757d;
+}
+.bawliq .container .all .col-lg-10 .dropdown:hover .drop-content {
+  background-color: #fcfcfc;
+  visibility: visible;
+  top: 150%;
+  transition: 0.2s;
+  color: black;
+}
+.bawliq .container .all .col-lg-10 .dropdown .drop-content {
+  background-color: #778597;
+  padding: 20px;
+  position: absolute;
+  min-width: 200px;
+  top: 220%;
+  left: 0%;
+  visibility: hidden;
+  transition: 0.2s;
+}
+.bawliq .container .all .col-lg-10 .dropdown .drop-content a {
+  text-align: left;
+  padding: 10px 0px;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+.bawliq .container .all .col-lg-10 .dropdown .drop-content a:hover {
+  color: #06b3e5;
+}
+.bawliq .container .all .col-lg-10 .dropdown .dropbtn {
+  color: black;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
